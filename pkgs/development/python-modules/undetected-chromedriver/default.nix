@@ -21,7 +21,7 @@ buildPythonPackage {
     owner = "ultrafunkamsterdam";
     repo = "undetected-chromedriver";
     rev = "0aa5fbe252370b4cb2b95526add445392cad27ba";
-    hash = "";
+    hash = "sha256-Qe+GrsUPnhjJMDgjdUCloapjj0ggFlm/Dr42WLcmb1o=";
   };
 
   disabled = pythonOlder "3.7";
