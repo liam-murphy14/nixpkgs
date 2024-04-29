@@ -18015,6 +18015,14 @@ with pkgs;
   electron = electron_29;
   electron-bin = electron_29-bin;
 
+  inherit (callPackages ../development/tools/electron/chromedriver { })
+    electron-chromedriver
+    electron-chromedriver_24
+    electron-chromedriver_27
+    electron-chromedriver_28
+    electron-chromedriver_29
+    electron-chromedriver_30;
+
   autobuild = callPackage ../development/tools/misc/autobuild { };
 
   autoconf-archive = callPackage ../development/tools/misc/autoconf-archive { };
